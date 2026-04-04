@@ -17,7 +17,7 @@ export default function SidePanel({ features, selectedFeature, onFeatureSelect }
 
       {/* Fixed tab ribbon */}
       <Box sx={{ borderBottom: 1, borderColor: 'divider', bgcolor: 'background.paper', flexShrink: 0 }}>
-        <Tabs value={activeTab} onChange={(_, v) => setActiveTab(v)} variant="fullWidth">
+        <Tabs value={activeTab} onChange={(_, v) => setActiveTab(v)} variant="fullWidth" textColor="secondary" indicatorColor="secondary">
           <Tab label="About" />
           <Tab label="Quarries" />
           <Tab label="Bibliography" />

@@ -18,7 +18,12 @@ export default function QuarriesTab({ features, selectedFeature, onFeatureSelect
   useEffect(() => {
     if (selectedFid == null) return
     const el = itemRefs.current[selectedFid]
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    if (!el) return
+    // Delay scroll until the previously open accordion finishes collapsing (~300ms)
+    const timer = setTimeout(() => {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 600)
+    return () => clearTimeout(timer)
   }, [selectedFid])
 
   function handleChange(feature) {
@@ -27,7 +32,7 @@ export default function QuarriesTab({ features, selectedFeature, onFeatureSelect
   }
 
   return (
-    <Box sx={{ px: 1.5 }}>
+    <Box sx={{ px: 2.5, py: 1 }}>
       {features.map((feature) => {
         const p = feature.properties
         const isExpanded = selectedFid === p.fid
@@ -39,36 +44,42 @@ export default function QuarriesTab({ features, selectedFeature, onFeatureSelect
             expanded={isExpanded}
             onChange={() => handleChange(feature)}
             disableGutters
-            square
             sx={{
               '&:before': { display: 'none' },
-              borderBottom: '1px solid',
+              mb: 1.5,
+              border: '1px solid',
               borderColor: 'divider',
+              borderRadius: '8px !important',
+              overflow: 'hidden',
             }}
           >
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-              <Box>
-                <Typography variant="subtitle1" sx={{ fontWeight: isExpanded ? 700 : 400 }}>
-                  {p.NAME}
-                </Typography>
-                <Typography variant="caption" color="text.secondary">
-                  {p.PROVINCE}
-                </Typography>
+              <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', pr: 1 }}>
+                <Box>
+                  <Typography variant="subtitle1" sx={{ fontWeight: isExpanded ? 700 : 400 }}>
+                    {p.NAME}
+                  </Typography>
+                  <Typography variant="caption" color="text.secondary">
+                    {p.PROVINCE}
+                  </Typography>
+                </Box>
+                {p.STATUS && (
+                  <Chip
+                    label={p.STATUS}
+                    size="small"
+                    variant="outlined"
+                    sx={
+                      p.STATUS === 'Confirmed'
+                        ? { borderColor: 'success.main', color: 'success.main' }
+                        : { borderColor: '#db5d0f', color: '#db5d0f' }
+                    }
+                  />
+                )}
               </Box>
             </AccordionSummary>
 
             <AccordionDetails sx={{ pt: 0, px: 2 }}>
               <Divider sx={{ mb: 2 }} />
-              {p.STATUS && (
-                <Box sx={{ mb: 2 }}>
-                  <Chip
-                    label={p.STATUS}
-                    size="small"
-                    color={p.STATUS === 'Confirmed' ? 'success' : 'default'}
-                    variant="outlined"
-                  />
-                </Box>
-              )}
               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
                 <Field label="Location" value={p.LOCATION} />
                 <Field label="Material" value={p.MATERIAL} />

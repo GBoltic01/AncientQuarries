@@ -13,6 +13,7 @@ No backend — all data is static GeoJSON.
 - **Clustering:** react-leaflet-cluster v2
 - **UI components:** MUI (Material UI) v5
 - **No Tailwind** — MUI handles all styling via `sx` prop
+- **Theme colours:** primary `rgb(25,112,29)` (green), secondary `#D97706` (amber)
 - **API key:** `VITE_THUNDERFOREST_API_KEY` in `.env` (see `.env.example`)
 
 ## Layout
@@ -33,13 +34,13 @@ Accordion behaviour:
 - All quarry names visible when collapsed
 - Clicking a name expands it; clicking again collapses it
 - Clicking a map pin switches to Quarries tab, expands that entry, and scrolls to it
-- Accordion content has `px: 1.5` horizontal margin for breathing room
+- Accordion scroll uses a 600ms delay to wait for the collapse animation before scrolling
 
 ## Map Behavior
 
 - Default center: `[44.0, 18.5]` (Balkans region)
 - Default zoom: `7`
-- Basemap: OpenStreetMap
+- Basemap switcher (bottom-left): Thunderforest Landscape (default) + ESRI World Imagery satellite
 - On feature select: `map.flyTo([lat, lng], 12)`
 
 ## GeoJSON Data (`src/data/quarries.geojson`)
@@ -51,7 +52,7 @@ Leaflet's `flyTo` takes `[lat, lng]` — always flip when using coordinates.
 |---|---|
 | NAME | Quarry name |
 | PROVINCE | Roman province |
-| STATUS | e.g. Confirmed, Probable |
+| STATUS | `Confirmed` (green pin) or `Potential Source Area` (amber pin) |
 | LOCATION | Human-readable location |
 | MATERIAL | Stone type |
 | PRODUCTS | What was produced |
@@ -78,6 +79,10 @@ src/
       AboutTab.jsx          ← lorem ipsum placeholder
       QuarriesTab.jsx       ← accordion list with scroll-to behaviour
       BibliographyTab.jsx   ← deduplicated bibliography list
+  utils/
+    quarryIcon.js         ← custom pin divIcon factory, colored by STATUS
+    pickaxe.svg           ← icon shown inside each pin
+    markers-shadow.png    ← shadow image rendered below each pin
   data/
     quarries.geojson
   App.jsx                   ← layout, state, responsive split (useMediaQuery)
@@ -102,6 +107,6 @@ npm run preview   # preview production build
 ## Known Gotchas
 
 - **GeoJSON import:** Vite doesn't natively handle `.geojson` extensions as JSON modules. A custom inline plugin in `vite.config.js` handles this.
-- **Leaflet marker icons:** Vite breaks Leaflet's default marker icons. Fixed in `MapView.jsx` by manually merging icon options with imported asset URLs.
+- **Custom pin markers:** Defined in `src/utils/quarryIcon.js`. Teardrop shape via `border-radius: 50% 50% 50% 0; transform: rotate(-45deg)`. Icon sits in a counter-rotated wrapper div to stay upright. Shadow from `src/utils/markers-shadow.png`.
 - **Coordinate order:** GeoJSON uses `[lng, lat]`; Leaflet uses `[lat, lng]`. Always destructure as `const [lng, lat] = feature.geometry.coordinates` before passing to Leaflet.
-- **Swiper loop prevention:** `BottomSheet.jsx` uses an `isProgrammatic` ref flag to prevent feedback loops between `slideTo()` calls and `onSlideChange` events.
+- **Accordion scroll timing:** 600ms `setTimeout` delay in `QuarriesTab.jsx` — MUI collapse animation shifts sibling positions, so scroll must wait for it to finish.
