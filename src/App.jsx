@@ -4,7 +4,16 @@ import MapView from './components/MapView'
 import SidePanel from './components/SidePanel'
 import quarriesData from './data/quarries.geojson'
 
-const theme = createTheme()
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: 'rgb(25, 112, 29)',
+    },
+    secondary: {
+      main: '#D97706',
+    },
+  },
+})
 const features = quarriesData.features
 
 export default function App() {
