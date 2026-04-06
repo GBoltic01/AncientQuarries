@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import { ThemeProvider, createTheme, CssBaseline, Box, AppBar, Toolbar, Typography, useMediaQuery } from '@mui/material'
 import MapView from './components/MapView'
 import SidePanel from './components/SidePanel'
-import quarriesData from './data/quarries.geojson'
+import quarriesData from './data/Quarries_260406.geojson'
 
 const theme = createTheme({
   palette: {
@@ -18,6 +18,7 @@ const features = quarriesData.features
 
 export default function App() {
   const [selectedFeature, setSelectedFeature] = useState(null)
+  const [panelExpanded, setPanelExpanded] = useState(false)
   const mapRef = useRef(null)
   const isMobile = useMediaQuery(theme.breakpoints.down('md'))
 
@@ -46,15 +47,23 @@ export default function App() {
         {/* Main content — always 50/50, stacked vertically on mobile, side by side on desktop */}
         <Box sx={{ flex: 1, display: 'flex', flexDirection: isMobile ? 'column' : 'row', overflow: 'hidden' }}>
 
-          {/* Map — 50% */}
-          <Box sx={{ flex: 1, minHeight: 0, minWidth: 0 }}>
+          {/* Map — 50% on desktop/mobile-collapsed, 0 when panel is expanded on mobile */}
+          <Box sx={{
+            flex: isMobile ? 'none' : 1,
+            height: isMobile ? (panelExpanded ? 0 : '50%') : undefined,
+            minHeight: 0,
+            minWidth: 0,
+            overflow: 'hidden',
+            transition: 'height 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+          }}>
             <MapView
+              features={features}
               onFeatureSelect={handleFeatureSelect}
               onMapReady={(map) => { mapRef.current = map }}
             />
           </Box>
 
-          {/* Side panel — 50% */}
+          {/* Side panel — fills remaining space */}
           <Box sx={{
             flex: 1,
             minHeight: 0,
@@ -70,6 +79,9 @@ export default function App() {
               features={features}
               selectedFeature={selectedFeature}
               onFeatureSelect={handleFeatureSelect}
+              isMobile={isMobile}
+              panelExpanded={panelExpanded}
+              onPanelExpand={setPanelExpanded}
             />
           </Box>
         </Box>
