@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/AncientQuarries/',
   plugins: [
     react(),
     // Treat .geojson files as JSON modules

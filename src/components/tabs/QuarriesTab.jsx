@@ -9,6 +9,7 @@ import {
   Chip,
 } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
+import { getPhotosForFid } from '../../utils/photosData'
 
 export default function QuarriesTab({ features, selectedFeature, onFeatureSelect }) {
   const selectedFid = selectedFeature?.properties?.fid
@@ -85,14 +86,44 @@ export default function QuarriesTab({ features, selectedFeature, onFeatureSelect
                 <Field label="Material" value={p.MATERIAL} />
                 <Field label="Products" value={p.PRODUCTS} />
                 <Field label="Supply to" value={p.SUPPLY} />
+                <Field label="Quarry Sites" value={p.QUARRY_SITES} />
                 <Field label="Archaeological Evidence" value={p.ARCHAEOLOGICAL_EVIDENCE} />
+                <Field label="Extraction Traces" value={p.EXTRACTION_TRACES} />
+                <Field label="Unfinished Products" value={p.UNFINISHED_PRODUCTS} />
+                <Field label="Tools" value={p.TOOLS} />
+                <Field label="Measurements" value={p.MEASUREMENTS} />
                 <Field label="Potential Transport" value={p.POTENTIAL_TRANSPORT} />
+                <Field label="Comments" value={p.COMMENTS} />
                 <Field label="Bibliography" value={p.BIBLIOGRAPHY} />
               </Box>
+              <PhotoGallery fid={p.fid} />
             </AccordionDetails>
           </Accordion>
         )
       })}
+    </Box>
+  )
+}
+
+function PhotoGallery({ fid }) {
+  const photos = getPhotosForFid(fid)
+  if (photos.length === 0) return null
+  return (
+    <Box sx={{ mt: 2, display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+      <Divider />
+      {photos.map((photo, i) => (
+        <Box key={i}>
+          <Box
+            component="img"
+            src={photo.src}
+            alt={photo.caption}
+            sx={{ width: '100%', borderRadius: 1, display: 'block' }}
+          />
+          <Typography variant="caption" color="text.secondary" sx={{ mt: 0.5, display: 'block' }}>
+            {photo.caption}
+          </Typography>
+        </Box>
+      ))}
     </Box>
   )
 }

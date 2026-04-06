@@ -3,7 +3,6 @@ import { MapContainer, TileLayer, Marker, useMap, LayersControl } from 'react-le
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import quarriesData from '../data/quarries.geojson'
 import { getQuarryIcon } from '../utils/quarryIcon'
 
 const CLUSTER_COLOR = '#388E3C'
@@ -42,9 +41,7 @@ function MapController({ onMapReady }) {
   return null
 }
 
-export default function MapView({ onFeatureSelect, onMapReady }) {
-  const features = quarriesData.features
-
+export default function MapView({ features, onFeatureSelect, onMapReady }) {
   return (
     <MapContainer
       center={MAP_CENTER}

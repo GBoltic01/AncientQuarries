@@ -1,6 +1,6 @@
 {
     "type": "FeatureCollection",
-    "name": "quarries",
+    "name": "Quarries_260406",
     "crs": {
         "type": "name",
         "properties": {
@@ -12,20 +12,24 @@
             "type": "Feature",
             "properties": {
                 "fid": 1,
-                "ID": 1,
                 "NAME": "Dardagani",
                 "PROVINCE": "Dalmatia",
                 "STATUS": "Confirmed",
-                "LOCATION": "5km north of Zvornik, Bosnia and Herzegovina",
+                "LOCATION": "5 km north of Zvornik, Bosnia and Herzegovina",
                 "x": 19.102005,
                 "y": 44.434,
                 "MATERIAL": "Limestone (different lithotypes)",
                 "PRODUCTS": "Sarcophagi, stelae, medallions, votive altars, architectural elements",
                 "SUPPLY": "Sirmium",
                 "ARCHAEOLOGICAL_EVIDENCE": "Tools traces, roughed-out products",
-                "POTENTIAL_TRANSPORT": "Drina, Sava, Sapna",
-                "BIBLIOGRAPHY": "Rižnar and Jovanović 2006, Djurić et al. 2006; 2007; 2012.",
-                "field_14": null
+                "POTENTIAL_TRANSPORT": "Drina, Sava and Sapna Rivers",
+                "BIBLIOGRAPHY": "Rižnar and Jovanović 2006, Djurić et al. 2006; 2007; 2012;  Russell 2013c; Ostojić et al. (forthcoming).",
+                "UNFINISHED_PRODUCTS": "Ostjenak: The Roman quarry dump in a part of Locus II revealed fragments of roughed-out products, mostly sarcophagi, which were made on site.\nNovi Izvor, Galleries I – III: The roughed-out products were found in the quarry, mostly sarcophagi. These bear marks of a toothed chisel and serve as evidence of production on the site of extraction. In Gallery I was found also an unfinished sarcophagus made of white fine grained porous limestone (Lithotype III), which confirm that also an ‘unpure’ (transitional) type of limestone was used.",
+                "EXTRACTION_TRACES": null,
+                "TOOLS": "Two iron wedges were found in the underground part of the Bandera quarry and are now kept in a local collection at Zvornik. They correspond to the preserved wedge holes in both size and form.",
+                "MEASUREMENTS": "Novi Izvor, Galleries I-III: the largest is Gallery I, which measures roughly 100 m in width and 90 m in depth. Gallery II is estimated to measure 40 m in width and 30 m in depth, Gallery III is privately owned and closed off. All three galleries have loci measuring up to 10 x 12 m in plan and up to 4 m in height.  Surface extraction can further be supposed in lengths of 270 m on the southern slopes of Bandera Hill.\nSige: 370 x 400 m or more; that the area of Roman extraction extended from the slopes of the Ostjenak Hill, to the north, to the end of the western slopes of the Bandera Hill.",
+                "COMMENTS": null,
+                "QUARRY_SITES": "Sige, Bandera, Novi Izvor, Ostjenak"
             },
             "geometry": {
                 "type": "Point",
@@ -39,7 +43,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 2,
-                "ID": 2,
                 "NAME": "Rajići",
                 "PROVINCE": "Dalmatia",
                 "STATUS": "Confirmed",
@@ -49,10 +52,15 @@
                 "MATERIAL": "Green pyroclastic rock",
                 "PRODUCTS": "Sarcophagi",
                 "SUPPLY": "Sirmium",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Drina, Sava",
-                "BIBLIOGRAPHY": "Djurić 2020.",
-                "field_14": null
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Drina River, Sava River",
+                "BIBLIOGRAPHY": "Rižnar and Jovanović 2006, 150; Djurić 2020, 206-207.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "Roman exploitation of Rajići quarry is confirmed based on the distinctive volcaniclastic rock which has been used for Sirmium sarcophagi; however, the exact area of Roman exploitation is not yet known. Quarry is still exploited today.",
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -66,8 +74,7 @@
             "type": "Feature",
             "properties": {
                 "fid": 3,
-                "ID": 3,
-                "NAME": "Medvednica Mountain (Podused, Gornje Vrapče, Crna voda)",
+                "NAME": "Medvednica Mountain",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Confirmed",
                 "LOCATION": "By Zagreb, Croatia",
@@ -77,9 +84,14 @@
                 "PRODUCTS": "Sarcophagi, funerary monuments",
                 "SUPPLY": "Andautonia, blocks probably transported down to Siscia",
                 "ARCHAEOLOGICAL_EVIDENCE": "Altars at quarry sites, report also: unfinished columns and iron tools",
-                "POTENTIAL_TRANSPORT": "Sava",
-                "BIBLIOGRAPHY": "Brunšmid 1907; 1909; Galić and Radman-Livaja 2002; Knezovič 2012, 240; Migotti 2018, 206-208.",
-                "field_14": null
+                "POTENTIAL_TRANSPORT": "Sava River",
+                "BIBLIOGRAPHY": "Brunšmid 1907; Degmedžić 1957, 16, 21-22; 1909; Galić and Radman-Livaja 2002; Knezovič 2012, 240; Migotti et al. 2018, 206-208.",
+                "UNFINISHED_PRODUCTS": "Unfinished column found at the Vrapče site (today lost), and at the Crna voda site was found altar to Jupiter together with undressed stones.",
+                "EXTRACTION_TRACES": null,
+                "TOOLS": "Several items of Roman mining tools were found at Vrapče site, which are all lost today.",
+                "MEASUREMENTS": null,
+                "COMMENTS": "In 1894 at the Vrapče site was found altar to Silvanus.",
+                "QUARRY_SITES": "Podused, Gornje Vrapče, Crna voda"
             },
             "geometry": {
                 "type": "Point",
@@ -93,20 +105,24 @@
             "type": "Feature",
             "properties": {
                 "fid": 4,
-                "ID": 4,
-                "NAME": "Hrastovica (Šibić and Bijele Stijene)",
+                "NAME": "Hrastovica",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Confirmed",
-                "LOCATION": "Croatia",
+                "LOCATION": "Municipality of Petrinja, Croatia",
                 "x": 16.272048,
                 "y": 45.397041,
                 "MATERIAL": "Limestone",
                 "PRODUCTS": "Sarcophagi, ash-chests",
                 "SUPPLY": "Siscia",
                 "ARCHAEOLOGICAL_EVIDENCE": "Roughed-out product (at the foothill)",
-                "POTENTIAL_TRANSPORT": "Glina, Kupa",
-                "BIBLIOGRAPHY": "Migotti 2018, 202.",
-                "field_14": null
+                "POTENTIAL_TRANSPORT": "Glina River, Kupa River",
+                "BIBLIOGRAPHY": "Migotti et al. 2018, 202.",
+                "UNFINISHED_PRODUCTS": "Fragmented coffin was found at the Bijele Stijene site, measuring approximately 1 x 1,5 m and seeming to be roughed-out or an unfinished discarded piece which should have been carved into sarcophagus or ash-chest.",
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "At the Bijele Stijene site, surfaces do not have any traces of quarrying, but there are some larger stone blocks scattered in clusters at their foot.",
+                "QUARRY_SITES": "Šibić and Bijele Stijene"
             },
             "geometry": {
                 "type": "Point",
@@ -120,20 +136,24 @@
             "type": "Feature",
             "properties": {
                 "fid": 5,
-                "ID": 5,
-                "NAME": "Topusko (Draškovičevi podrumi and Žuti kamen)",
+                "NAME": "Topusko",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Confirmed",
-                "LOCATION": "Topusko, Croatia",
+                "LOCATION": "Between Petrova and Zrinjska Mountain, Croatia",
                 "x": 15.971002,
                 "y": 45.294186,
                 "MATERIAL": "Yellow and reddish sandstone",
                 "PRODUCTS": "Building material, funerary monuments?",
                 "SUPPLY": "Quadrata",
                 "ARCHAEOLOGICAL_EVIDENCE": "Obliterated traces, the only remains of a former quarry cut into a hill slope are two lumpy rocks",
-                "POTENTIAL_TRANSPORT": "Glina, Kupa",
-                "BIBLIOGRAPHY": "Migotti 2018, 204.",
-                "field_14": null
+                "POTENTIAL_TRANSPORT": "Glina River, Kupa River",
+                "BIBLIOGRAPHY": "Migotti et al. 2018, 204.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "Roman traces at the Draškovičevi podrumi site have been obliterated during the construction of cellars cut into a slope in the 18th century.\nThe only remains of a former quarry cut into a hill slope are two lumpy rocks at a small distance to each other at the Žuti kamen site.",
+                "QUARRY_SITES": "Draškovičevi podrumi and Žuti kamen"
             },
             "geometry": {
                 "type": "Point",
@@ -147,7 +167,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 6,
-                "ID": 6,
                 "NAME": "Region Kordun",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Confirmed",
@@ -158,9 +177,14 @@
                 "PRODUCTS": "Sarcophagi, stone urns",
                 "SUPPLY": "Siscia, Quadrata",
                 "ARCHAEOLOGICAL_EVIDENCE": "37 Roman quarries documented, sarcophagi and urns in various stages of production",
-                "POTENTIAL_TRANSPORT": "Korana (2 sarcophagi), Mrežnica, Dobra, Kupa (1 sarcophagus)",
-                "BIBLIOGRAPHY": "Knezović 2012, 242; Migotti 2018",
-                "field_14": null
+                "POTENTIAL_TRANSPORT": "Korana (2 sarcophagi), Mrežnica, Dobra, Kupa (1 sarcophagus) Rivers",
+                "BIBLIOGRAPHY": "Horvat 1964, 25-26; Šarić 1983, 45-52; Perkić 2002, 113, 117-120; Knezović 2012, 242; Migotti et al. 2018, 206-207.",
+                "UNFINISHED_PRODUCTS": "In the area between the Mrežnica and Kordun are scattered sarcophagi and urns in various stages of production. In Mraćin village is unfinished sarcophagus, still unattached form the rock.",
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "In literature different number of quarries is documented: either 37 (Knezović 2012, 242) or as many as 29, which can be grouped into 11 clusters (Migotti 2018, 206).",
+                "QUARRY_SITES": "The surface quarries in the karst area of Kordun."
             },
             "geometry": {
                 "type": "Point",
@@ -174,7 +198,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 7,
-                "ID": 7,
                 "NAME": "Moslovačka Gora",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Potential source area",
@@ -182,12 +205,17 @@
                 "x": 16.680778,
                 "y": 45.636277,
                 "MATERIAL": "Limestone, area rich of granite, amphibolite, gneiss as well",
-                "PRODUCTS": "/",
+                "PRODUCTS": "",
                 "SUPPLY": "Transported to Siscia",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "Northeast of the Sava River",
                 "BIBLIOGRAPHY": "Crnković 1997, 11-12; Burkowsky 1999, 65; Knezović 2012, 241.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -201,7 +229,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 8,
-                "ID": 8,
                 "NAME": "Ravna Gora – Vinica quarries",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Potential source area",
@@ -211,10 +238,15 @@
                 "MATERIAL": "Yellow-greyish exploitable stone: porous and soft limestone (vinicit) and macro and megaporous Lithotamnion limestone ",
                 "PRODUCTS": "Building material",
                 "SUPPLY": "Aquae Iasae, possibly Aquae Balissae",
-                "ARCHAEOLOGICAL_EVIDENCE": "»stone of this area was exploited in ancient times«",
-                "POTENTIAL_TRANSPORT": "5 km from the Drava",
+                "ARCHAEOLOGICAL_EVIDENCE": "No archaeological evidence. In literature »stone of this area was exploited in ancient times«.",
+                "POTENTIAL_TRANSPORT": "5 km from the Drava River",
                 "BIBLIOGRAPHY": "Crnković and Jovičić 1993, 146; Knezović 2012, 241.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -228,7 +260,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 9,
-                "ID": 9,
                 "NAME": "Ruopanec",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Potential source area",
@@ -238,10 +269,15 @@
                 "MATERIAL": "Greyish and yellow-greyish, porous and soft limestone",
                 "PRODUCTS": "Building material",
                 "SUPPLY": "Aquae Iasae",
-                "ARCHAEOLOGICAL_EVIDENCE": "»old quarries with the remnants of block extraction«",
-                "POTENTIAL_TRANSPORT": "Land routes + Bednja River",
+                "ARCHAEOLOGICAL_EVIDENCE": "No archaeological evidence. In literature »old quarries with the remnants of block extraction«.",
+                "POTENTIAL_TRANSPORT": "Land routes,  Bednja River",
                 "BIBLIOGRAPHY": "Crnković and Jovičić 1993, 146; Knezović 2012, 241.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -255,7 +291,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 10,
-                "ID": 10,
                 "NAME": "Mount Kalnik",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Potential source area",
@@ -265,10 +300,15 @@
                 "MATERIAL": "Yellowish white lithotamnium limestone",
                 "PRODUCTS": "Rubble stone – building material",
                 "SUPPLY": "Iovia, Aquae Iasae",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Land routes + Bednja River (tributary of the Drava)",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Land routes, Bednja River (tributary of the Drava)",
                 "BIBLIOGRAPHY": "Knezović 2012, 241.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -282,7 +322,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 11,
-                "ID": 11,
                 "NAME": "Ivanščica",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Potential source area",
@@ -292,10 +331,15 @@
                 "MATERIAL": "Limestone",
                 "PRODUCTS": "Funerary monuments, stelae",
                 "SUPPLY": "Lobor",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Land routes + Bednja River",
-                "BIBLIOGRAPHY": "Migotti 2018, 209.",
-                "field_14": null
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Land routes,  Bednja River",
+                "BIBLIOGRAPHY": "Migotti et al. 2018, 209.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -309,7 +353,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 12,
-                "ID": 12,
                 "NAME": "Sirač or Lipovljani",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Potential source area",
@@ -319,10 +362,15 @@
                 "MATERIAL": "Limestone",
                 "PRODUCTS": "Sarcophagi",
                 "SUPPLY": "Mursa",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Bijela",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Bijela River",
                 "BIBLIOGRAPHY": "Knezović 2012, 241.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -336,7 +384,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 13,
-                "ID": 12,
                 "NAME": "Sirač or Lipovljani (Lipovljani*)",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Potential source area",
@@ -346,10 +393,15 @@
                 "MATERIAL": "Limestone",
                 "PRODUCTS": "Sarcophagi",
                 "SUPPLY": "Mursa",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Bijela",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Bijela River",
                 "BIBLIOGRAPHY": "Knezović 2012, 241.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -363,7 +415,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 14,
-                "ID": 13,
                 "NAME": "Papuk Mountain area",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Potential source area",
@@ -373,10 +424,15 @@
                 "MATERIAL": "Limestone, sandy biocalc., biocalcarenite",
                 "PRODUCTS": "Sarcophagi",
                 "SUPPLY": "Aquae Balissae",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "Drava River",
-                "BIBLIOGRAPHY": "Knezović 2012, 241; Migotti 2018, 209.",
-                "field_14": null
+                "BIBLIOGRAPHY": "Knezović 2012, 241; Migotti et al. 2018, 209.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -390,7 +446,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 15,
-                "ID": 14,
                 "NAME": "Psunj Mountain area",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Potential source area",
@@ -400,10 +455,15 @@
                 "MATERIAL": "Sandy biocalc., biocalcarenite",
                 "PRODUCTS": "Funerary monuments, stelae",
                 "SUPPLY": "Aquae Balissae",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "Sava River",
-                "BIBLIOGRAPHY": "Migotti 2018, 209.",
-                "field_14": null
+                "BIBLIOGRAPHY": "Migottiet al. 2018, 209.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -417,7 +477,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 16,
-                "ID": 15,
                 "NAME": "Dilj Mountain",
                 "PROVINCE": "Pannonia",
                 "STATUS": "Potential source area",
@@ -427,10 +486,15 @@
                 "MATERIAL": "Limestone",
                 "PRODUCTS": "Funerary monuments, stelae",
                 "SUPPLY": "Aquae Balissae, Mursa",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "Sava River, Bosut River",
-                "BIBLIOGRAPHY": "Migotti 2018, 209.",
-                "field_14": null
+                "BIBLIOGRAPHY": "Migotti et al. 2018, 209.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -444,20 +508,24 @@
             "type": "Feature",
             "properties": {
                 "fid": 17,
-                "ID": 16,
-                "NAME": "Ugljevik",
-                "PROVINCE": "Pannonia",
-                "STATUS": "Potential source area",
+                "NAME": "Bucova",
+                "PROVINCE": "Dacia",
+                "STATUS": "Confirmed",
                 "LOCATION": "Northeastern part of Bosnia and Herzegovina (entity Republika Srpska)",
                 "x": 21.15013,
                 "y": 45.0,
                 "MATERIAL": "Limestone",
                 "PRODUCTS": "Altars, sarcophagi (?)",
-                "SUPPLY": "Sirmium",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Sava River",
-                "BIBLIOGRAPHY": "Djurić, October 2023, pers. comm.",
-                "field_14": null
+                "SUPPLY": "Viminacium",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Bistra River, Danube River",
+                "BIBLIOGRAPHY": "Téglás 1889; Müller et al. 1999; Müller et al. 2012; Russell 2013c.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": "Thin parallel extraction marks can be observed on the walls.",
+                "TOOLS": null,
+                "MEASUREMENTS": "The old quarry is located on the left bank of the Bistra River at an elevation of +850 m. The extraction face, approximately 17 km long, has a height of about 20 m. While the quarry has preserved Roman traces, it was functional between the 1980 and 1985, and again after 2000, thus the measurements do not correspond to Roman exploitation only. According to Téglás (1889), the wall of a Roman quarry had a width of 20 m and a height of 30 m.",
+                "COMMENTS": null,
+                "QUARRY_SITES": "Quarry I (the ‘old’ quarry)"
             },
             "geometry": {
                 "type": "Point",
@@ -471,20 +539,24 @@
             "type": "Feature",
             "properties": {
                 "fid": 18,
-                "ID": 17,
                 "NAME": "Motajica",
                 "PROVINCE": "Dalmatia",
                 "STATUS": "Potential source area",
-                "LOCATION": "Bosnia and Herzegovina",
+                "LOCATION": "Northern Bosnia and Herzegovina",
                 "x": 17.665476,
                 "y": 45.076071,
                 "MATERIAL": "Slate granite (yellowish stone with grey granulate additions)",
                 "PRODUCTS": "Stone veneering",
                 "SUPPLY": "Cibalae, probably Servitium, Marsonia, Sirmium",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Sava; transport to Cibalae on lesser streams: Berava, Bosut, Studva + possible inland waterway 18crossed an artificial canal to the Vuka River",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Sava River; transport to Cibalae on lesser streams: Berava, Bosut, Studva, possible inland waterway 18crossed an artificial canal to the Vuka River",
                 "BIBLIOGRAPHY": "Knezović 2012, 242.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -498,7 +570,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 19,
-                "ID": 18,
                 "NAME": "Ozren or Konjuh",
                 "PROVINCE": "Dalmatia",
                 "STATUS": "Potential source area",
@@ -508,10 +579,15 @@
                 "MATERIAL": "Reddish marble breccia",
                 "PRODUCTS": "Stone veneering",
                 "SUPPLY": "Cibalae",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "Bosna River, Vrbas River, Sava River",
                 "BIBLIOGRAPHY": "Knezović 2012, 242.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -525,7 +601,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 20,
-                "ID": 18,
                 "NAME": "Ozren or Konjuh (Konjuh ***)",
                 "PROVINCE": "Dalmatia",
                 "STATUS": "Potential source area",
@@ -535,10 +610,15 @@
                 "MATERIAL": "Reddish marble breccia",
                 "PRODUCTS": "Stone veneering",
                 "SUPPLY": "Cibalae",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "Bosna River, Vrbas River, Sava River",
                 "BIBLIOGRAPHY": "Knezović 2012, 242.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -552,7 +632,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 21,
-                "ID": 19,
                 "NAME": "Tašmajdan",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Confirmed",
@@ -562,10 +641,15 @@
                 "MATERIAL": "Limestone",
                 "PRODUCTS": "Sarcophagi, building material",
                 "SUPPLY": "Singidunum, Viminacium",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Danube",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Danube River",
                 "BIBLIOGRAPHY": "Popović 2006, 34",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -579,7 +663,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 22,
-                "ID": 20,
                 "NAME": "Ram",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -589,10 +672,15 @@
                 "MATERIAL": "Green schists",
                 "PRODUCTS": "Building material",
                 "SUPPLY": "Viminacium",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Danube",
-                "BIBLIOGRAPHY": "Nikolić 2012, 21.",
-                "field_14": null
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Danube River",
+                "BIBLIOGRAPHY": "Nikolić 2013, 21.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -606,7 +694,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 23,
-                "ID": 21,
                 "NAME": "Višnjica",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -616,16 +703,21 @@
                 "MATERIAL": "Limestone",
                 "PRODUCTS": "Building material",
                 "SUPPLY": "Viminacium",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Danube",
-                "BIBLIOGRAPHY": "Kanitz 1987, 157; Nikolić 2012, 24.",
-                "field_14": null
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Danube River",
+                "BIBLIOGRAPHY": "Kanitz 1987, 157; Nikolić 2013, 24.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    20.536171,
-                    44.820636
+                    20.577086993151962,
+                    44.789628652672832
                 ]
             }
         },
@@ -633,7 +725,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 24,
-                "ID": 22,
                 "NAME": "Sige",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -643,10 +734,15 @@
                 "MATERIAL": "Tufa",
                 "PRODUCTS": "Building material",
                 "SUPPLY": "Viminacium",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Mlava",
-                "BIBLIOGRAPHY": "Nikolić 2012, 24.",
-                "field_14": null
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Mlava River",
+                "BIBLIOGRAPHY": "Nikolić 2013, 24.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -660,7 +756,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 25,
-                "ID": 23,
                 "NAME": "Outside the NW corner of Felix Romuliana",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -670,10 +765,15 @@
                 "MATERIAL": "Hornblade andesite",
                 "PRODUCTS": "Building material",
                 "SUPPLY": "Felix Romuliana",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "/",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "",
                 "BIBLIOGRAPHY": "Djurić et al. 2018, 487.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -687,7 +787,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 26,
-                "ID": 24,
                 "NAME": "Magura Hill",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Confirmed",
@@ -697,10 +796,15 @@
                 "MATERIAL": "Volcaniclastic sandstone, Silty marly limestone – reddish and greenish",
                 "PRODUCTS": "Building material, funerary monuments",
                 "SUPPLY": "Felix Romuliana",
-                "ARCHAEOLOGICAL_EVIDENCE": "Wedge holes",
-                "POTENTIAL_TRANSPORT": "/",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "",
                 "BIBLIOGRAPHY": "Djurić et al. 2018, 488.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": "Wedge holes visible in the quarry.",
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "Wedge holes visible also on a block from the fortification core.",
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -714,7 +818,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 27,
-                "ID": 25,
                 "NAME": "Rgotina area",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -724,10 +827,15 @@
                 "MATERIAL": "Sandy limestone",
                 "PRODUCTS": "Architectural elements (capitals, for the plinths of column bases), peristyle of palace, both mausolea, ...",
                 "SUPPLY": "Felix Romuliana",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Danube, Timok",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Danube River, Timok River",
                 "BIBLIOGRAPHY": "Djurić et al. 2018, 490.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -741,7 +849,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 28,
-                "ID": 26,
                 "NAME": "Rgotina area",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -751,10 +858,15 @@
                 "MATERIAL": "Lithic wacke",
                 "PRODUCTS": "Tetrapylon on Magura, building material",
                 "SUPPLY": "Felix Romuliana",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Danube, Timok",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Danube River, Timok River",
                 "BIBLIOGRAPHY": "Djurić et al. 2018, 491-492.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -768,7 +880,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 29,
-                "ID": 27,
                 "NAME": "Hum",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -776,12 +887,17 @@
                 "x": 21.901469,
                 "y": 43.372494,
                 "MATERIAL": "Limestone (?)",
-                "PRODUCTS": "/",
+                "PRODUCTS": "",
                 "SUPPLY": "Naissus",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "South Morava, Nišava",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "South Morava River, Nišava River",
                 "BIBLIOGRAPHY": "Jovićič 2019, 59.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -795,7 +911,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 30,
-                "ID": 28,
                 "NAME": "Unknown – probably in Prishtina area (on map Gračanica)",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -805,10 +920,15 @@
                 "MATERIAL": "Large grained marble with reddish veins",
                 "PRODUCTS": "Stelae",
                 "SUPPLY": "Ulpiana, and in modern Klokot",
-                "ARCHAEOLOGICAL_EVIDENCE": "/ (no research, 'indirectly testified')",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "Lepenc River",
                 "BIBLIOGRAPHY": "Dobruna-Salihu 2015, 519.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -822,7 +942,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 31,
-                "ID": 29,
                 "NAME": "Klecka",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -835,7 +954,12 @@
                 "ARCHAEOLOGICAL_EVIDENCE": "Altar, funerary monument and head of statue found near Lipjan",
                 "POTENTIAL_TRANSPORT": "Bistrica River, tributary of the Morava River",
                 "BIBLIOGRAPHY": "Dobruna-Salihu 2015, 522.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -849,7 +973,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 32,
-                "ID": 30,
                 "NAME": "Kacanik",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -859,10 +982,15 @@
                 "MATERIAL": "Greyish limestone",
                 "PRODUCTS": "Funerary stelae and votive altars",
                 "SUPPLY": "Ulpiana",
-                "ARCHAEOLOGICAL_EVIDENCE": "/ (no research, 'indirectly testified')",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "Lepanc River",
                 "BIBLIOGRAPHY": "Dobruna-Salihu 2015, 521.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -876,7 +1004,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 33,
-                "ID": 31,
                 "NAME": "Vuće ",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -886,10 +1013,15 @@
                 "MATERIAL": "Andesite, or dacite",
                 "PRODUCTS": "Building material",
                 "SUPPLY": "Municipium DD",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "Ibar",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "Ibar River",
                 "BIBLIOGRAPHY": "Čerškov, 1970, 16-23.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -903,7 +1035,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 34,
-                "ID": 32,
                 "NAME": "Ostrozub",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -916,7 +1047,12 @@
                 "ARCHAEOLOGICAL_EVIDENCE": "Unfinished products in Prizren",
                 "POTENTIAL_TRANSPORT": "Lepenc River",
                 "BIBLIOGRAPHY": "Dobruna-Salihu 2015, 522.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -930,7 +1066,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 35,
-                "ID": 33,
                 "NAME": "Shkoza",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -940,10 +1075,15 @@
                 "MATERIAL": "White limestone",
                 "PRODUCTS": "Votive monuments, statuary",
                 "SUPPLY": "Theranda",
-                "ARCHAEOLOGICAL_EVIDENCE": "/ (no research, 'indirectly testified')",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "Smaller rivers, but watershed of Morava river",
                 "BIBLIOGRAPHY": "Dobruna-Salihu 2015, 522.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -957,7 +1097,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 36,
-                "ID": 34,
                 "NAME": "Shkoza near Decan",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -966,17 +1105,22 @@
                 "y": 42.540309,
                 "MATERIAL": "Limestone and onyx marble",
                 "PRODUCTS": "Funerary monuments, votive altars",
-                "SUPPLY": "/",
-                "ARCHAEOLOGICAL_EVIDENCE": "/ (no research, 'indirectly testified')",
+                "SUPPLY": "",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "Bistrica River, watershed of Morava River",
                 "BIBLIOGRAPHY": "Dobruna-Salihu 2015, 524.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    20.288185,
-                    42.540309
+                    20.244585350356122,
+                    42.519469038118707
                 ]
             }
         },
@@ -984,20 +1128,24 @@
             "type": "Feature",
             "properties": {
                 "fid": 37,
-                "ID": 35,
                 "NAME": "Kisela Voda",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
-                "LOCATION": "North Macedonia",
+                "LOCATION": "Skpje Valley, North Macedonia",
                 "x": 21.440742,
                 "y": 41.980456,
                 "MATERIAL": "Marble",
                 "PRODUCTS": "Funerary monuments",
                 "SUPPLY": "Scupi",
-                "ARCHAEOLOGICAL_EVIDENCE": "In literature (Evans 1883, 88)",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
                 "POTENTIAL_TRANSPORT": "River Lepenc",
                 "BIBLIOGRAPHY": "Basotova 2019, 11-12.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -1011,8 +1159,7 @@
             "type": "Feature",
             "properties": {
                 "fid": 38,
-                "ID": 36,
-                "NAME": "Svilare/Gorno Svilare/ Dolno Svilare",
+                "NAME": "Svilare",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Confirmed quarry",
                 "LOCATION": "Skopje Valley, North Macedonia,",
@@ -1023,8 +1170,13 @@
                 "SUPPLY": "Scupi",
                 "ARCHAEOLOGICAL_EVIDENCE": "Pre-Roman use",
                 "POTENTIAL_TRANSPORT": "River Reka",
-                "BIBLIOGRAPHY": "Lilčić 2001, 121-124; Basotova 2019, 12 (reference to:  Keramitičiev 1987, 120).",
-                "field_14": null
+                "BIBLIOGRAPHY": "Keramitčiev 1987; Mikulčić 1982, 78-79; Lilčić 2001, 121-124; Basotova 2019, 12 (reference to:  Keramitičiev 1987, 120).",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "Chemical analyses of artefacts from Scupi and its area confirmed this quarry, which is also mentioned as a quarry of travertine from the Roman period in the literature. ",
+                "QUARRY_SITES": "Between Gorno Svilare and Dolno Svilare, also Kameno brdo location"
             },
             "geometry": {
                 "type": "Point",
@@ -1038,7 +1190,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 39,
-                "ID": 37,
                 "NAME": "Govrlevo-Dračevica",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -1051,7 +1202,12 @@
                 "ARCHAEOLOGICAL_EVIDENCE": "Dračevica – traces of Roman exploitation",
                 "POTENTIAL_TRANSPORT": "Sitnica River",
                 "BIBLIOGRAPHY": "Lilčić 2001, 121-124; Basotova 2019, 12.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -1065,11 +1221,10 @@
             "type": "Feature",
             "properties": {
                 "fid": 40,
-                "ID": 38,
                 "NAME": "Četiri kamena",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
-                "LOCATION": "Kumanovo Valley, by village Dimonce, North Macedonia,",
+                "LOCATION": "Kumanovo Valley, by village Dimonce, North Macedonia",
                 "x": 21.986863,
                 "y": 42.105835,
                 "MATERIAL": "Tufa andesite",
@@ -1078,7 +1233,12 @@
                 "ARCHAEOLOGICAL_EVIDENCE": "Traces of ancient, likely Roman exploitation",
                 "POTENTIAL_TRANSPORT": "Kriva River",
                 "BIBLIOGRAPHY": "Basotova 2019, 11.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -1092,20 +1252,24 @@
             "type": "Feature",
             "properties": {
                 "fid": 41,
-                "ID": 39,
                 "NAME": "Rugince",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
-                "LOCATION": "5 km NE of Četiri kamena, North Macedonia,",
+                "LOCATION": "5 km NE of Četiri kamena, North Macedonia",
                 "x": 21.975824,
                 "y": 42.14649,
                 "MATERIAL": "Andesite tufa",
                 "PRODUCTS": "Stelae, altars, architectural elements",
                 "SUPPLY": "Scupi and settlements in Kumanovo and Skopje valleys",
                 "ARCHAEOLOGICAL_EVIDENCE": "Visible ancient traces",
-                "POTENTIAL_TRANSPORT": "Lepenac River, Vardar",
+                "POTENTIAL_TRANSPORT": "Lepenac River, Vardar River",
                 "BIBLIOGRAPHY": "Basotova 2019, 19.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -1119,7 +1283,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 42,
-                "ID": 40,
                 "NAME": "Makreš",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -1132,7 +1295,12 @@
                 "ARCHAEOLOGICAL_EVIDENCE": "Visible ancient traces, but not necessarily Roman",
                 "POTENTIAL_TRANSPORT": "Pčinja River",
                 "BIBLIOGRAPHY": "Basotova 2019, 19.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -1146,7 +1314,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 43,
-                "ID": 41,
                 "NAME": "Vuksan",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Confirmed",
@@ -1159,7 +1326,12 @@
                 "ARCHAEOLOGICAL_EVIDENCE": "No traces (obliterated by modern exploitation)",
                 "POTENTIAL_TRANSPORT": "River Vuksan",
                 "BIBLIOGRAPHY": "Basotova 2012, 18.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "No ancient extraction traces preserved due to modern exploitation.",
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -1173,7 +1345,6 @@
             "type": "Feature",
             "properties": {
                 "fid": 44,
-                "ID": 42,
                 "NAME": "Lipkovo",
                 "PROVINCE": "Moesia Superior",
                 "STATUS": "Potential source area",
@@ -1186,7 +1357,12 @@
                 "ARCHAEOLOGICAL_EVIDENCE": "Traces probably obliterated by modern exploitation",
                 "POTENTIAL_TRANSPORT": "Lipkovska River",
                 "BIBLIOGRAPHY": "Basotova 2012, 18.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -1200,20 +1376,24 @@
             "type": "Feature",
             "properties": {
                 "fid": 45,
-                "ID": 43,
                 "NAME": "Sivec",
                 "PROVINCE": "Macedonia",
                 "STATUS": "Confirmed",
-                "LOCATION": "Near Prilep, North Macedonia,",
+                "LOCATION": "Near Prilep, North Macedonia",
                 "x": 21.595381,
                 "y": 41.407932,
                 "MATERIAL": "Fine-grained dolomite marble",
                 "PRODUCTS": "Figural and architectural sculpture",
                 "SUPPLY": "Styberra, Heraclea Lyncestis, some in Stobi",
                 "ARCHAEOLOGICAL_EVIDENCE": "Traces of Roman exploitation",
-                "POTENTIAL_TRANSPORT": "Vardar",
-                "BIBLIOGRAPHY": "Niewöhner et al. 2013",
-                "field_14": " Prochaska 2013."
+                "POTENTIAL_TRANSPORT": "Vardar River",
+                "BIBLIOGRAPHY": "Tomović 1993, 21; Russell 2013; Prochaska 2013; Niewohner et al. 2013.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": "Traces of Roman exploitation preserved on some blocks in the quarry area.",
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "Presently exploited by the Mermeren Kombinat AD.",
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -1227,20 +1407,24 @@
             "type": "Feature",
             "properties": {
                 "fid": 46,
-                "ID": 44,
                 "NAME": "Pletvar",
                 "PROVINCE": "Macedonia",
                 "STATUS": "Confirmed",
-                "LOCATION": "Near Prilep, 8 km away from Sivec, North Macedonia,",
+                "LOCATION": "Near Prilep, 8 km away from Sivec, North Macedonia",
                 "x": 21.653184,
                 "y": 41.370057,
                 "MATERIAL": "Coarse-grained Calcite marble",
                 "PRODUCTS": "Late Roman Stobi (mainly)",
                 "SUPPLY": "Stobi",
                 "ARCHAEOLOGICAL_EVIDENCE": "Traces of Roman exploitation, various finds: iron chisels, parts of architectural elements, unfinished products",
-                "POTENTIAL_TRANSPORT": "Vardar",
-                "BIBLIOGRAPHY": "Niewöhner et al. 2013",
-                "field_14": " Prochaska 2013"
+                "POTENTIAL_TRANSPORT": "Vardar River",
+                "BIBLIOGRAPHY": "Babić 1972; Niewöhner et al. 2013; Prochaska 2013.",
+                "UNFINISHED_PRODUCTS": "Bosses of architectural elements, unfinished products (reported by Babić 1972).",
+                "EXTRACTION_TRACES": "Several crater-shaped pits are good evidence of pre-modern quarrying. Below the western pit lie five square blocks, about 80 cm long and 40-60 cm wide, which were quarried with pickaxes and preserve tool marks.",
+                "TOOLS": "Iron chisels (reported by Babić 1972).",
+                "MEASUREMENTS": null,
+                "COMMENTS": "Measurements of Roman exploitation are uncertain, but in Prochaska 2021: “Fist sized debris extends along the whole length of it [steep slope], over several hundred meters.”",
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -1254,20 +1438,24 @@
             "type": "Feature",
             "properties": {
                 "fid": 47,
-                "ID": 45,
                 "NAME": "Suvodol",
                 "PROVINCE": "Macedonia",
                 "STATUS": "Potential source area",
-                "LOCATION": "Territory of Bitola, North Macedonia,",
+                "LOCATION": "Territory of Bitola, North Macedonia",
                 "x": 21.222987,
                 "y": 41.210194,
                 "MATERIAL": "Marble",
                 "PRODUCTS": "Sarcophagi",
                 "SUPPLY": "Heraclea Lyncestis",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "/",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "",
                 "BIBLIOGRAPHY": "Bitrakova-Grozdanova, V. and A. Nikoloska 2015.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
@@ -1281,26 +1469,247 @@
             "type": "Feature",
             "properties": {
                 "fid": 48,
-                "ID": 46,
-                "NAME": "Unknown",
+                "NAME": "Unknown - probably close to Gradsko",
                 "PROVINCE": "Macedonia",
-                "STATUS": "/",
+                "STATUS": "Potential source area",
                 "LOCATION": "Territory of Gradsko, North Macedonia",
                 "x": 20.0,
                 "y": 40.0,
                 "MATERIAL": "Marble",
                 "PRODUCTS": "Stobi (seats of the theatre, heroon), statuary",
                 "SUPPLY": "Stobi",
-                "ARCHAEOLOGICAL_EVIDENCE": "/",
-                "POTENTIAL_TRANSPORT": "/",
+                "ARCHAEOLOGICAL_EVIDENCE": "",
+                "POTENTIAL_TRANSPORT": "",
                 "BIBLIOGRAPHY": "Niewöhner et al. 2013, 110.",
-                "field_14": null
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    20.0,
-                    40.0
+                    21.976587770161693,
+                    41.57144411767829
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 49,
+                "NAME": "Pohorje",
+                "PROVINCE": "Pannonia",
+                "STATUS": "Confirmed",
+                "LOCATION": "Near Maribor, Slovenia",
+                "x": null,
+                "y": null,
+                "MATERIAL": "Marble",
+                "PRODUCTS": "Sarcophagi, stelae",
+                "SUPPLY": "Poetovio and regional",
+                "ARCHAEOLOGICAL_EVIDENCE": null,
+                "POTENTIAL_TRANSPORT": "Drava River",
+                "BIBLIOGRAPHY": "Djurić 1997; Russell 2013; Prochaska 2021; Djurić et al. 2025b.",
+                "UNFINISHED_PRODUCTS": "On a pathway below the slope of Motaln quarry was found a fragment of a half-finished marble vessel – mortar.",
+                "EXTRACTION_TRACES": "No visible tool-marks on the quarry walls, but parallel grooves made by pick are visible on a block found in the bed of a stream below the Motaln quarry. A marble block with characteristic grooved pick-marks was found in front of the entrance to one of the loci of the “Kresnik quarry”, dimensions 140 x 50 x 35 cm.",
+                "TOOLS": null,
+                "MEASUREMENTS": "Šmartno/Frajham Complex: most quarries located on the west slope of Pohorje Mountains with its upper edge at approximately 800 m asl and the valley floor at approximately 700 m, with an average gradient of 22° or 40 %. Marble extraction took place at several levels in a 230 m wide and 1.700 m long strip.",
+                "COMMENTS": "At the Šmartno/Frajham Complex are remains of 66 limekilns, which are traces of modern, but possible even earlier marble extraction. An important find, probably from the area of Motaln quarry, is a votive altar with a depiction of a stonemason, identified as Saxanus. During the construction of the church of St. Martin in Šmartno (13th century) funerary and votive monuments were used, but also several half-finished products.\nPresumed stonemasons’ settlement was found in the valley of the Velika Polskava.",
+                "QUARRY_SITES": "Hudinja, Šmartno/Frajham Complex (including Videc), Motaln, Vitanje"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.517134738259715,
+                    46.519405868774257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 50,
+                "NAME": "Salla",
+                "PROVINCE": "Noricum",
+                "STATUS": "Confirmed",
+                "LOCATION": "Salla, Austria",
+                "x": null,
+                "y": null,
+                "MATERIAL": "Marble",
+                "PRODUCTS": "Stelae",
+                "SUPPLY": "Regional",
+                "ARCHAEOLOGICAL_EVIDENCE": null,
+                "POTENTIAL_TRANSPORT": null,
+                "BIBLIOGRAPHY": "Djurić and Müller 2009; Russell 2013.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "No direct physical remnants of Roman quarrying techniques are clearly visible today.",
+                "QUARRY_SITES": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.977019183385059,
+                    47.108567240630776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 51,
+                "NAME": "Gummern",
+                "PROVINCE": "Noricum",
+                "STATUS": "Confirmed",
+                "LOCATION": "Villach, Austria",
+                "x": null,
+                "y": null,
+                "MATERIAL": "Marble",
+                "PRODUCTS": "Sarcophagi, stelae",
+                "SUPPLY": "Virunum, regional",
+                "ARCHAEOLOGICAL_EVIDENCE": null,
+                "POTENTIAL_TRANSPORT": "Drava River",
+                "BIBLIOGRAPHY": "Jantsch 1929; Kieslinger 1956; Djurić and Müller 2009; Russell 2013; Prochaska 2021.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": "In the first decades of the 20th century ancient traces were visible (Jantsch 1929; Kieslinger 1956). There are minor signs of ancient exploitation visible, specifically pick-traces, around another modern mines (Krastal), which is located a few km away from the Gummern quarry.",
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "Because of the marble production and the enormous expansion of the mine site during the last decades, the Roman traces of marble mining were destroyed. ",
+                "QUARRY_SITES": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.784378237342036,
+                    46.66259757167505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 52,
+                "NAME": "Budakalász",
+                "PROVINCE": "Pannonia",
+                "STATUS": "Confirmed",
+                "LOCATION": "Close to Budapest, Hungary",
+                "x": null,
+                "y": null,
+                "MATERIAL": "Travertine",
+                "PRODUCTS": "Stelae, sarcophagi, architecture",
+                "SUPPLY": "Aquincum, regional",
+                "ARCHAEOLOGICAL_EVIDENCE": null,
+                "POTENTIAL_TRANSPORT": "Danube River",
+                "BIBLIOGRAPHY": "Djurić et al. 2018b.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "Travertine in Budakalász still quarried today. The Roman exploitation is confirmed due to artefacts stone analysis.",
+                "QUARRY_SITES": "Buda Hills, Monalovác Hill and a smaller Roman quarry on Gellért Hill"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.047337820730238,
+                    47.630198725669082
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 53,
+                "NAME": "Berkovitsa",
+                "PROVINCE": "Moesia Superior",
+                "STATUS": "Confirmed",
+                "LOCATION": "Near the present-day town of Berkovitsa, Bulgaria",
+                "x": null,
+                "y": null,
+                "MATERIAL": "Marble, Limestone",
+                "PRODUCTS": "Architectural elements",
+                "SUPPLY": "Felix Romuliana, Ulpia Oescus",
+                "ARCHAEOLOGICAL_EVIDENCE": null,
+                "POTENTIAL_TRANSPORT": null,
+                "BIBLIOGRAPHY": "Braemer 2004; Russell 2013; Zagorchev 2014; Prochaska and Živić 2018; Andreeva et al. 2024.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": "Remnants of the Roman mining activity can still be found around Berkovitsa.",
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": "For an aerial photo from the region of Berkovitsa and a quarry façade, see Andreeva et al. 2024, Figs. 5a and 5b. More data is needed to determine the scope, scale and chronology of the marble exploitation at Berkovitsa. The Berkovitsa quarry is still exploited today (modern quarry site 510 m above sea level, 20 km southwards of Montana.",
+                "QUARRY_SITES": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.08977780075335,
+                    43.235954545483047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 54,
+                "NAME": "Ugljevik",
+                "PROVINCE": "Pannonia",
+                "STATUS": "Potential Source area",
+                "LOCATION": "Northeastern part of Bosnia and Herzegovina (entity Republika Srpska)",
+                "x": null,
+                "y": null,
+                "MATERIAL": "Limestone",
+                "PRODUCTS": "Altars, sarcophagi (?)",
+                "SUPPLY": "Sirmium",
+                "ARCHAEOLOGICAL_EVIDENCE": null,
+                "POTENTIAL_TRANSPORT": "Sava River",
+                "BIBLIOGRAPHY": "Djurić, October 2023, pers. comm.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.000720194336335,
+                    44.693892271862971
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 55,
+                "NAME": "Banja e Pejes",
+                "PROVINCE": "Moesia Superior",
+                "STATUS": "Potential source area",
+                "LOCATION": "Near Pejes, Kosovo",
+                "x": null,
+                "y": null,
+                "MATERIAL": "Onyx marble",
+                "PRODUCTS": null,
+                "SUPPLY": null,
+                "ARCHAEOLOGICAL_EVIDENCE": null,
+                "POTENTIAL_TRANSPORT": null,
+                "BIBLIOGRAPHY": "Dobruna-Salihu 2015, 524.",
+                "UNFINISHED_PRODUCTS": null,
+                "EXTRACTION_TRACES": null,
+                "TOOLS": null,
+                "MEASUREMENTS": null,
+                "COMMENTS": null,
+                "QUARRY_SITES": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.388433041996308,
+                    42.718473577353031
                 ]
             }
         }
