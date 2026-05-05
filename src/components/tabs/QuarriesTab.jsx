@@ -92,7 +92,6 @@ export default function QuarriesTab({ features, selectedFeature, onFeatureSelect
                 <Field label="Unfinished Products" value={p.UNFINISHED_PRODUCTS} />
                 <Field label="Tools" value={p.TOOLS} />
                 <Field label="Measurements" value={p.MEASUREMENTS} />
-                <Field label="Potential Transport" value={p.POTENTIAL_TRANSPORT} />
                 <Field label="Comments" value={p.COMMENTS} />
                 <Field label="Bibliography" value={p.BIBLIOGRAPHY} />
               </Box>
