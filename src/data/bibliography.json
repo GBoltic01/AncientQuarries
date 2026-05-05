@@ -1,672 +1,247 @@
 [
-  [
-    {
-      "text": "Niewöhner, Ph., L. Audlrey-Miller and W. Prochaska (2013). ‘Marbles, Quarries and Workrshops on the Highlands of Northern Macedonia’, ",
-      "italic": false
-    },
-    {
-      "text": "Archäologischer Anzeiger",
-      "italic": true
-    },
-    {
-      "text": ", 95–145.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Prochaska, W. (2013). ‘A Sculptural Marble of Prime Quality in Antiquity – The Dolomitic Marble of the Sivec Mountains in Macedonia’, ",
-      "italic": false
-    },
-    {
-      "text": "Archaeometry",
-      "italic": true
-    },
-    {
-      "text": " 55 (2), 179–197.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Russell, B. (2013c). ",
-      "italic": false
-    },
-    {
-      "text": "Gazetteer of Stone Quarries in the Roman World",
-      "italic": true
-    },
-    {
-      "text": ". Version 1.0. [Online: www.romaneconomy.ox.ac.uk/databases/stone_quarries_database/]",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Tomović, M. (1993). ",
-      "italic": false
-    },
-    {
-      "text": "Roman Sculpture in Upper Moesia",
-      "italic": true
-    },
-    {
-      "text": ". Belgrade.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Téglás, G. (1889). ‘Römischer Marmorbruch im Bisztrathale’, ",
-      "italic": false
-    },
-    {
-      "text": "Földtani Közlöny",
-      "italic": true
-    },
-    {
-      "text": " XIX, 209–212.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Müller, H. W., B. Schwaighoffer, M. Benea, I. Piso, and A. Diaconescu (1999), 'Marbles in the Roman province of Dacia', in M. Schvoerer (ed.), ",
-      "italic": false
-    },
-    {
-      "text": "Archéomatériaux: marbres et autres roches",
-      "italic": true
-    },
-    {
-      "text": ". Bordeaux, 131-40.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Müller, W. H. et al. (2012). ",
-      "italic": false
-    },
-    {
-      "text": "Der Marmor im Römischen Dakien",
-      "italic": true
-    },
-    {
-      "text": ". Cluj-Napoca.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Rižnar, I. and D. Jovanović (2006). ‘Stone material of regional provenance from Sirmium’, Starinar LVI, 139–152.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Djurić, B., Davidović, J., Maver, A. and H. W. Müller (2006). ‘Stone use in Roman towns: Resources, transport, products and clients: Case study Sirmium: First report’, Starinar, LVI, 103–137.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Djurić, B., Davidović, J., Maver, A. and I. Rižnar (2007). ‘Stone use in Roman towns: Resources, transport, products and clients: Case study Sirmium: Second report’, Starinar, LVII, 83–100.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Djurić, B., Maver, A., Rižnar, I., Jovanović, D. and J. Davidović (2012). ‘Sirmium’s main limestone quarry at Dardagani (Bosnia and Herzegovina)’, in ",
-      "italic": false
-    },
-    {
-      "text": "Gutierrez Garcia-Moreno, A., Lapuente Mercadal, P. and I. Roda de Llanza (eds), ",
-      "italic": false
-    },
-    {
-      "text": "Interdisciplinary Studies on Ancient Stone. ASMOSIA IX ",
-      "italic": true
-    },
-    {
-      "text": "(Documenta 23)",
-      "italic": false
-    },
-    {
-      "text": ". ",
-      "italic": true
-    },
-    {
-      "text": "Tarragona,",
-      "italic": false
-    },
-    {
-      "text": " 471–479.",
-      "italic": true
-    }
-  ],
-  [
-    {
-      "text": "Djurić, B. (2020). ‘Roman sarcophagus from Titel’, Starinar 70, 201–223.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Ostojić, M., Hadžihasanović, J. and A. Kaljanac (forthcoming). 'Novel method of documentation of Roman quarries by use of Lidar technology', in Djurić, B., Zanier, K. and R. Brajkovič (eds), ",
-      "italic": false
-    },
-    {
-      "text": "ASMOSIA XIV, Proceedings of the Fourteenth International Conference on the Study of Marble and Other Stones in Antiquity, Ljubljana 15–20 September 2025.",
-      "italic": true
-    }
-  ],
-  [
-    {
-      "text": "Keramitčiev, A. (1987). ‘Eksplotacija na mermertite vo antičko vreme’, ",
-      "italic": false
-    },
-    {
-      "text": "Macedonia Acta Archaelogica",
-      "italic": true
-    },
-    {
-      "text": " 7-8, 109–124.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Popović, M. (2006). ",
-      "italic": false
-    },
-    {
-      "text": "The Fortress of Belgrade",
-      "italic": true
-    },
-    {
-      "text": ". Belgrade.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Nikolić, E. (2013). ‘Contribution to the Study of Roman Architecture in Viminacium: Construction Materials and Building Techniques’, in Korać, M. (ed.), ",
-      "italic": false
-    },
-    {
-      "text": "Arheologija i prirodne nauke",
-      "italic": true
-    },
-    {
-      "text": " 8/2012. Belgrade, 21–48.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Knezović, I. (2012). ‘Construction Materials and Techniques’, in Migotti (ed.),",
-      "italic": false
-    },
-    {
-      "text": " The Archaeology of Roman Southern Pannonia ",
-      "italic": true
-    },
-    {
-      "text": "(BAR International Series 2393).",
-      "italic": false
-    },
-    {
-      "text": " ",
-      "italic": true
-    },
-    {
-      "text": "Oxford, 225–250.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Migotti, B., M. Šašel Kos Jamison and I. Radman-Livaja (2018) eds. ",
-      "italic": false
-    },
-    {
-      "text": "Roman Funerary Monuments of South-Western Croatia in their Material Culture, Social and Religious Context",
-      "italic": true
-    },
-    {
-      "text": ". Oxford.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Lilčić, V. (2001). ",
-      "italic": false
-    },
-    {
-      "text": "Makedonskiot kamen za bogovite Hristjanite i za život po životot. Antićka kamena arhitektonska plastika vo Republika Makedonija, 1 Tom, Rana i zrela antika",
-      "italic": true
-    },
-    {
-      "text": ". Skopje.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Basotova, M. (2019). ",
-      "italic": false
-    },
-    {
-      "text": "Antični nagrobni spomeniki na območju mesta Scupi in na področju Kumanova: Izdelki, proizvodni cikli in kupci",
-      "italic": true
-    },
-    {
-      "text": ". Published PhD thesis. Ljubljana.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Mikulčić, I. (1982). ",
-      "italic": false
-    },
-    {
-      "text": "Staro Skopje so okolnite tvrdini",
-      "italic": true
-    },
-    {
-      "text": ". Skopje.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Kanitz, F. P. (1899). ",
-      "italic": false
-    },
-    {
-      "text": "Srbija: zemlja i stanovništvo od rimskog doba do kraja XIX veka",
-      "italic": true
-    },
-    {
-      "text": ". Belgrade.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Jovičić, M. I. (2019). ",
-      "italic": false
-    },
-    {
-      "text": "Antički žrvnjevi iz rimskih provincija na tlu Srbije",
-      "italic": true
-    },
-    {
-      "text": ". Published PhD thesis. Belgrade.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Jantsch, F. (1929). Der Römersteinbruch in Gummern. Carinthia I 119, Klagenfurt.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Kieslinger, A. (1956). ",
-      "italic": false
-    },
-    {
-      "text": "Die nutzbaren Gesteine Kärntens",
-      "italic": true
-    },
-    {
-      "text": ". ",
-      "italic": false
-    },
-    {
-      "text": "Carinthia II, Sonderheft, 17, Klagenfurt.",
-      "italic": true
-    }
-  ],
-  [
-    {
-      "text": "Djurić, B. and H.W. Müller (2009). ‘White marbles in Noricum and Pannonia: an outline of the Roman quarries and their products’, in Jockey, P. (ed.), ",
-      "italic": false
-    },
-    {
-      "text": "Leukos lithos: marbres et autres roches de la Méditerranée antique ; études interdisciplinaires ; actes du VIIIe Colloque International de l'Association for the Study of Marble and Other Stones Used in Antiquity (ASMOSIA), Aix-en-Provence, 12 - 18 juin 2006",
-      "italic": true
-    },
-    {
-      "text": ". Paris, 111–128.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Horvat, A. (1964). ‘Presjek razvoja umjetnosti u karlovačkom pokuplju’, ",
-      "italic": false
-    },
-    {
-      "text": "Zbornik gradskog muzeja u Karlovcu ",
-      "italic": true
-    },
-    {
-      "text": "1, 25–26.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Šarić, I. (1983). ‘Kamenolomi gdje su se u rimsko vrijeme izrađivali sarkofazi’, ",
-      "italic": false
-    },
-    {
-      "text": "Vjesnik arheološkog muzeja u Zagrebu",
-      "italic": true
-    },
-    {
-      "text": " 15, 43–58.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Perkić, D. (2002). ‘Grad mrtvih u Bubijevoj jami kod Barilovića’, ",
-      "italic": false
-    },
-    {
-      "text": "Histria Antiqua",
-      "italic": true
-    },
-    {
-      "text": " 8, 103–130.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Dobruna-Salihu, E. (2015). ‘The main quarries of the central part of Dardania (present Kosova) during the Roman period: their usage in funerary and cult monuments’, in Pensabene, P. and E. Gasparini (eds), ",
-      "italic": false
-    },
-    {
-      "text": "Interdisciplinary Studies on Ancient Stone. ASMOSIA X",
-      "italic": true
-    },
-    {
-      "text": ". Rome, 519–526.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Djurić, B., Kele, S. and I. Rižnar (2018b). ‘The Budakalász Travertine Production’, in Matetić Poljak, D. and K. Marasović (eds), ",
-      "italic": false
-    },
-    {
-      "text": "Interdisciplinary Studies on Ancient Stone, ASMOSIA XI. ",
-      "italic": true
-    },
-    {
-      "text": "Split, 545–556.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Djurić, B. (1997). ‘Eastern Alpine Marble and Pannonian Trade’, in Djurić, B. and I. Lazar (eds), ",
-      "italic": false
-    },
-    {
-      "text": "Akten des IV. Internationalen Kolloquiums über Probleme des Provinzialrömischen Kunstschafens ",
-      "italic": true
-    },
-    {
-      "text": "(Situla 36). Ljubljana, 73–86.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Prochaska, W. (2021). ‘The challenge of a successful discrimination of ancient marbles (part II): A databank for the Alpine marbles’, ",
-      "italic": false
-    },
-    {
-      "text": "Journal of Archaeological Science: Reports ",
-      "italic": true
-    },
-    {
-      "text": "38, 102958.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Djurić, B., Jarc, S., Lozić, E., Prochaska, W., Rižnar, I., Zanier, K. and N. Zupančič (2025b). ‘The Pohorje Marble Quarry Complex of Šmartno/Frajhajm’, in Ladstätter, S., Prochaska, W. and V. Anevlavi (eds), ",
-      "italic": false
-    },
-    {
-      "text": "Proceedings of the ASMOSIA XIII International Conference, Volume II",
-      "italic": true
-    },
-    {
-      "text": ". Sonderschriften des Österreichischen Archäologischen Institut Band 65. Vienna, 397–408.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Čerškov, E. (1970). ",
-      "italic": false
-    },
-    {
-      "text": "Municipium DD kod Sočanice",
-      "italic": true
-    },
-    {
-      "text": ". Prishtina.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Crnković, B. and D. Jovičić (1993). ‘Dimension Stone Deposits in Croatia’, ",
-      "italic": false
-    },
-    {
-      "text": "Rudarsko-geološko-naftni zbornik",
-      "italic": true
-    },
-    {
-      "text": " 5, 139–163.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Crnković, B. (1997). ‘Geological Structure and Petrographic Composition of Croatia’, ",
-      "italic": false
-    },
-    {
-      "text": "Histria antiqua ",
-      "italic": true
-    },
-    {
-      "text": "3, 11–19.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Burkowsky, Z. (1999). ",
-      "italic": false
-    },
-    {
-      "text": "Sisak u prapovijesti, antici i starohrvatskom dobu",
-      "italic": true
-    },
-    {
-      "text": ", Exhibition Catalogue, Sisak.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Brunšmid, J. (1909). ‘Spomenici hrvatskog narodnog muzeja u Zagrebu’, Vjesnik Hrvatskoga arheološkoga društva Vol. X (1906-1907), 150–222.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Brunšmid, J. (1907). ‘Kameni spomenici hrvatskog narodnog muzeja u Zagrebu’, ",
-      "italic": false
-    },
-    {
-      "text": "Vjesnik Hrvatskoga arheološkoga društva",
-      "italic": true
-    },
-    {
-      "text": " Vol. IX, 83–184.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Degmedžič, I. (1957). ‘Sadržaj antiknih kamenih spomenika nađenih u Zagrebu i okolici’, ",
-      "italic": false
-    },
-    {
-      "text": "Iz starog i novog zagreba ",
-      "italic": true
-    },
-    {
-      "text": "1, Zagreb, 91–117.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Galić, M. and I. Radman-Livaja (2002). ‘Zaštitno istraživanje u Samoborskim Novakima 2000. Godine",
-      "italic": false
-    },
-    {
-      "text": "’",
-      "italic": false
-    },
-    {
-      "text": ", ",
-      "italic": false
-    },
-    {
-      "text": "Vjesnik Arheološkog muzeja u Zagrebu",
-      "italic": true
-    },
-    {
-      "text": " XXXI, 239",
-      "italic": false
-    },
-    {
-      "text": "–",
-      "italic": false
-    },
-    {
-      "text": "248.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Braemer, F. (2004), 'Le rôle des pierres précieuses et nobles dans l'ornamentation dans l'Antiquité et le Haut Moyen Âge', in P. Chardron-Picault, et al. (eds.), Les roches décoratives dans l'architecture antique et du Haut Moyen Âge (Archéologie et d'histoire de l'art, 16). Paris, 89-120.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Zagorchev, I. (2014. ‘Rhodope evolution in the heart of Balkan geology’, in Cvetković V. (ed.",
-      "italic": false
-    },
-    {
-      "text": ") XVI Serbian Geological Congress, Donji Milanovac, May 22nd-25th 2014",
-      "italic": true
-    },
-    {
-      "text": ". Beograd, 43–48.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Prochaska, W. and M. Živić (2018). ‘The Marbles of the Sculptures of Felix Romuliana in Serbia’, in Matetić Poljak, D. and K. Marasović (eds), ",
-      "italic": false
-    },
-    {
-      "text": "Interdisciplinary Studies on Ancient Stone, ASMOSIA XI. ",
-      "italic": true
-    },
-    {
-      "text": "Split, 301–310.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Andreeva, P., Anevlavi, V., Frerix, B., Cenati, C., Prochaska, W., Ladstätter, S. and K. Karadimitrova (2024). ‘A contribution to the urbanization and marble supply of Roman Thrace: an interdisciplinary study’, ",
-      "italic": false
-    },
-    {
-      "text": "Archaeological and Anthropological Sciences",
-      "italic": true
-    },
-    {
-      "text": ", ",
-      "italic": false
-    },
-    {
-      "text": "Vol.",
-      "italic": true
-    },
-    {
-      "text": " 16: 23, https://doi.org/10.1007/s12520-023-01920-3.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Bitrakova-Grozdanova, V. and A. Nikoloska (2015). ‘Several Decorated Sarcophagi from Macedonia’, in Porod, B. and G. Koiner (eds), ",
-      "italic": false
-    },
-    {
-      "text": "Römische Sarkophage: Akten des Internationalen Werkstattgesprächs",
-      "italic": true
-    },
-    {
-      "text": " 11.–13. Oktober 2012. Graz, 256–43.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Babić, B. (1972). ‘Arheološki tragovi iz antičkog i srednjevekovnog perioda u Prilepskem kraju’, ",
-      "italic": false
-    },
-    {
-      "text": "Materiali",
-      "italic": true
-    },
-    {
-      "text": " 9, 21–38.",
-      "italic": false
-    }
-  ],
-  [
-    {
-      "text": "Djurić, B., Jovanović D., Pop Lazić, S. and W. Prochaska (2018a). ‘The Stones of Felix Romuliana (Gamzigrad, Serbia)’, in Matetić Poljak, D. and K. Marasović (eds), Interdisciplinary Studies on Ancient Stone, ASMOSIA XI. Split, 458–498.",
-      "italic": false
-    }
-  ]
+  {
+    "before": "Andreeva, P., Anevlavi, V., Frerix, B., Cenati, C., Prochaska, W., Ladstätter, S. and K. Karadimitrova (2024). ‘A contribution to the urbanization and marble supply of Roman Thrace: an interdisciplinary study’,",
+    "italic": "Archaeological and Anthropological Sciences",
+    "after": ", Vol. 16: 23, https://doi.org/10.1007/s12520-023-01920-3."
+  },
+  {
+    "before": "Babić, B. (1972). ‘Arheološki tragovi iz antičkog i srednjevekovnog perioda u Prilepskem kraju’,",
+    "italic": "Materiali",
+    "after": "9, 21–38."
+  },
+  {
+    "before": "Basotova, M. (2019).",
+    "italic": "Antični nagrobni spomeniki na območju mesta Scupi in na področju Kumanova: Izdelki, proizvodni cikli in kupci",
+    "after": ". Published PhD thesis. Ljubljana."
+  },
+  {
+    "before": "Bitrakova-Grozdanova, V. and A. Nikoloska (2015). ‘Several Decorated Sarcophagi from Macedonia’, in Porod, B. and G. Koiner (eds),",
+    "italic": "Römische Sarkophage: Akten des Internationalen Werkstattgesprächs",
+    "after": "11.–13. Oktober 2012. Graz, 256–43."
+  },
+  {
+    "before": "Braemer, F. (2004), 'Le rôle des pierres précieuses et nobles dans l'ornamentation dans l'Antiquité et le Haut Moyen Âge', in P. Chardron-Picault, et al. (eds.),",
+    "italic": "Les roches décoratives dans l'architecture antique et du Haut Moyen Âge",
+    "after": "(Archéologie et d'histoire de l'art, 16). Paris, 89–120."
+  },
+  {
+    "before": "Brunšmid, J. (1907). ‘Kameni spomenici hrvatskog narodnog muzeja u Zagrebu’,",
+    "italic": "Vjesnik Hrvatskoga arheološkoga društva",
+    "after": "Vol. IX, 83–184."
+  },
+  {
+    "before": "Brunšmid, J. (1909). ‘Spomenici hrvatskog narodnog muzeja u Zagrebu’,",
+    "italic": "Vjesnik Hrvatskoga arheološkoga društva",
+    "after": "Vol. X (1906-1907), 150–222."
+  },
+  {
+    "before": "Burkowsky, Z. (1999).",
+    "italic": "Sisak u prapovijesti, antici i starohrvatskom dobu",
+    "after": ", Exhibition Catalogue, Sisak."
+  },
+  {
+    "before": "Crnković, B. (1997). ‘Geological Structure and Petrographic Composition of Croatia’,",
+    "italic": "Histria antiqua",
+    "after": "3, 11–19."
+  },
+  {
+    "before": "Crnković, B. and D. Jovičić (1993). ‘Dimension Stone Deposits in Croatia’,",
+    "italic": "Rudarsko-geološko-naftni zbornik",
+    "after": "5, 139–163."
+  },
+  {
+    "before": "Degmedžič, I. (1957). ‘Sadržaj antiknih kamenih spomenika nađenih u Zagrebu i okolici’,",
+    "italic": "Iz starog i novog zagreba",
+    "after": "1, Zagreb, 91–117."
+  },
+  {
+    "before": "Djurić, B. (1997). ‘Eastern Alpine Marble and Pannonian Trade’, in Djurić, B. and I. Lazar (eds),",
+    "italic": "Akten des IV. Internationalen Kolloquiums über Probleme des Provinzialrömischen Kunstschafens",
+    "after": "(Situla 36). Ljubljana, 73–86."
+  },
+  {
+    "before": "Djurić, B. (2020). ‘Roman sarcophagus from Titel’,",
+    "italic": "Starinar",
+    "after": "LXX, 201–223."
+  },
+  {
+    "before": "Djurić, B. and H.W. Müller (2009). ‘White marbles in Noricum and Pannonia: an outline of the Roman quarries and their products’, in Jockey, P. (ed.),",
+    "italic": "Leukos lithos: marbres et autres roches de la Méditerranée antique ; études interdisciplinaires ; actes du VIIIe Colloque International de l'Association for the Study of Marble and Other Stones Used in Antiquity (ASMOSIA), Aix-en-Provence, 12 - 18 juin 2006",
+    "after": ". Paris, 111–128."
+  },
+  {
+    "before": "Djurić, B., Davidović, J., Maver, A. and H. W. Müller (2006). ‘Stone use in Roman towns: Resources, transport, products and clients: Case study Sirmium: First report’,",
+    "italic": "Starinar",
+    "after": "LVI, 103–137."
+  },
+  {
+    "before": "Djurić, B., Davidović, J., Maver, A. and I. Rižnar (2007). ‘Stone use in Roman towns: Resources, transport, products and clients: Case study Sirmium: Second report’,",
+    "italic": "Starinar",
+    "after": "LVII, 83–100."
+  },
+  {
+    "before": "Djurić, B., Jarc, S., Lozić, E., Prochaska, W., Rižnar, I., Zanier, K. and N. Zupančič (2025). ‘The Pohorje Marble Quarry Complex of Šmartno/Frajhajm’, in Ladstätter, S., Prochaska, W. and V. Anevlavi (eds),",
+    "italic": "Proceedings of the ASMOSIA XIII International Conference, Volume II",
+    "after": ". Sonderschriften des Österreichischen Archäologischen Institut Band 65. Vienna, 397–408."
+  },
+  {
+    "before": "Djurić, B., Jovanović D., Pop Lazić, S. and W. Prochaska (2018b). ‘The Stones of Felix Romuliana (Gamzigrad, Serbia)’, in Matetić Poljak, D. and K. Marasović (eds),",
+    "italic": "Interdisciplinary Studies on Ancient Stone, ASMOSIA XI",
+    "after": ". Split, 458–498."
+  },
+  {
+    "before": "Djurić, B., Kele, S. and I. Rižnar (2018a). ‘The Budakalász Travertine Production’, in Matetić Poljak, D. and K. Marasović (eds),",
+    "italic": "Interdisciplinary Studies on Ancient Stone, ASMOSIA XI",
+    "after": ". Split, 545–556."
+  },
+  {
+    "before": "Djurić, B., Maver, A., Rižnar, I., Jovanović, D. and J. Davidović (2012). ‘Sirmium’s main limestone quarry at Dardagani (Bosnia and Herzegovina)’, in Gutierrez Garcia-Moreno, A., Lapuente Mercadal, P. and I. Roda de Llanza (eds),",
+    "italic": "Interdisciplinary Studies on Ancient Stone. ASMOSIA IX",
+    "after": "(Documenta 23). Tarragona, 471–479."
+  },
+  {
+    "before": "Dobruna-Salihu, E. (2015). ‘The main quarries of the central part of Dardania (present Kosova) during the Roman period: their usage in funerary and cult monuments’, in Pensabene, P. and E. Gasparini (eds),",
+    "italic": "Interdisciplinary Studies on Ancient Stone. ASMOSIA X",
+    "after": ". Rome, 519–526."
+  },
+  {
+    "before": "Galić, M. and I. Radman-Livaja (2002). ‘Zaštitno istraživanje u Samoborskim Novakima 2000. Godine’,",
+    "italic": "Vjesnik Arheološkog muzeja u Zagrebu",
+    "after": "XXXI, 239–248."
+  },
+  {
+    "before": "Horvat, A. (1964). ‘Presjek razvoja umjetnosti u karlovačkom pokuplju’,",
+    "italic": "Zbornik gradskog muzeja u Karlovcu",
+    "after": "1, 25–26."
+  },
+  {
+    "before": "Jantsch, F. (1929).",
+    "italic": "Der Römersteinbruch in Gummern",
+    "after": ". Carinthia I (119), Klagenfurt."
+  },
+  {
+    "before": "Jovičić, M. I. (2019).",
+    "italic": "Antički žrvnjevi iz rimskih provincija na tlu Srbije",
+    "after": ". Published PhD thesis. Belgrade."
+  },
+  {
+    "before": "Kanitz, F. P. (1899).",
+    "italic": "Srbija: zemlja i stanovništvo od rimskog doba do kraja XIX veka",
+    "after": ". Belgrade."
+  },
+  {
+    "before": "Keramitčiev, A. (1987). ‘Eksplotacija na mermertite vo antičko vreme’,",
+    "italic": "Macedonia Acta Archaelogica",
+    "after": "7-8, 109–124."
+  },
+  {
+    "before": "Kieslinger, A. (1956).",
+    "italic": "Die nutzbaren Gesteine Kärntens",
+    "after": ". Carinthia II (17), Klagenfurt."
+  },
+  {
+    "before": "Knezović, I. (2012). ‘Construction Materials and Techniques’, in Migotti (ed.),",
+    "italic": "The Archaeology of Roman Southern Pannonia",
+    "after": "(BAR International Series 2393). Oxford, 225–250."
+  },
+  {
+    "before": "Lilčić, V. (2001).",
+    "italic": "Makedonskiot kamen za bogovite Hristjanite i za život po životot. Antićka kamena arhitektonska plastika vo Republika Makedonija, 1 Tom, Rana i zrela antika",
+    "after": ". Skopje."
+  },
+  {
+    "before": "Migotti, B., M. Šašel Kos Jamison and I. Radman-Livaja (2018) eds.",
+    "italic": "Roman Funerary Monuments of South-Western Croatia in their Material Culture, Social and Religious Context",
+    "after": ". Oxford."
+  },
+  {
+    "before": "Mikulčić, I. (1982).",
+    "italic": "Staro Skopje so okolnite tvrdini",
+    "after": ". Skopje."
+  },
+  {
+    "before": "Müller, H. W., B. Schwaighoffer, M. Benea, I. Piso, and A. Diaconescu (1999), 'Marbles in the Roman province of Dacia', in M. Schvoerer (ed.),",
+    "italic": "Archéomatériaux: marbres et autres roches",
+    "after": ". Bordeaux, 131-40."
+  },
+  {
+    "before": "Müller, W. H. et al. (2012).",
+    "italic": "Der Marmor im Römischen Dakien",
+    "after": ". Cluj-Napoca."
+  },
+  {
+    "before": "Niewöhner, Ph., L. Audlrey-Miller and W. Prochaska (2013). ‘Marbles, Quarries and Workrshops on the Highlands of Northern Macedonia’,",
+    "italic": "Archäologischer Anzeiger",
+    "after": ", 95–145."
+  },
+  {
+    "before": "Nikolić, E. (2013). ‘Contribution to the Study of Roman Architecture in Viminacium: Construction Materials and Building Techniques’, in Korać, M. (ed.),",
+    "italic": "Arheologija i prirodne nauke",
+    "after": "8/2012. Belgrade, 21–48."
+  },
+  {
+    "before": "Ostojić, M., Hadžihasanović, J. and A. Kaljanac (forthcoming). 'Novel method of documentation of Roman quarries by use of Lidar technology', in Djurić, B., Zanier, K. and R. Brajkovič (eds),",
+    "italic": "ASMOSIA XIV, Proceedings of the Fourteenth International Conference on the Study of Marble and Other Stones in Antiquity, Ljubljana 15–20 September 2025.",
+    "after": ""
+  },
+  {
+    "before": "Perkić, D. (2002). ‘Grad mrtvih u Bubijevoj jami kod Barilovića’,",
+    "italic": "Histria Antiqua",
+    "after": "8, 103–130."
+  },
+  {
+    "before": "Popović, M. (2006).",
+    "italic": "The Fortress of Belgrade",
+    "after": ". Belgrade."
+  },
+  {
+    "before": "Prochaska, W. (2013). ‘A Sculptural Marble of Prime Quality in Antiquity – The Dolomitic Marble of the Sivec Mountains in Macedonia’,",
+    "italic": "Archaeometry",
+    "after": "55 (2), 179–197."
+  },
+  {
+    "before": "Prochaska, W. (2021). ‘The challenge of a successful discrimination of ancient marbles (part II): A databank for the Alpine marbles’,",
+    "italic": "Journal of Archaeological Science: Reports",
+    "after": "38, 102958."
+  },
+  {
+    "before": "Prochaska, W. and M. Živić (2018). ‘The Marbles of the Sculptures of Felix Romuliana in Serbia’, in Matetić Poljak, D. and K. Marasović (eds),",
+    "italic": "Interdisciplinary Studies on Ancient Stone, ASMOSIA XI",
+    "after": ". Split, 301–310."
+  },
+  {
+    "before": "Rižnar, I. and D. Jovanović (2006). ‘Stone material of regional provenance from Sirmium’,.",
+    "italic": "Starinar",
+    "after": "LVI, 139–152."
+  },
+  {
+    "before": "Russell, B. (2013).",
+    "italic": "Gazetteer of Stone Quarries in the Roman World",
+    "after": ". Version 1.0. [Online: www.romaneconomy.ox.ac.uk/databases/stone_quarries_database/]"
+  },
+  {
+    "before": "Tomović, M. (1993).",
+    "italic": "Roman Sculpture in Upper Moesia",
+    "after": ". Belgrade."
+  },
+  {
+    "before": "Téglás, G. (1889). ‘Römischer Marmorbruch im Bisztrathale’,",
+    "italic": "Földtani Közlöny",
+    "after": "XIX, 209–212."
+  },
+  {
+    "before": "Zagorchev, I. (2014. ‘Rhodope evolution in the heart of Balkan geology’, in Cvetković V. (ed.),",
+    "italic": "XVI Serbian Geological Congress, Donji Milanovac, May 22nd-25th 2014",
+    "after": ". Beograd, 43–48."
+  },
+  {
+    "before": "Čerškov, E. (1970).",
+    "italic": "Municipium DD kod Sočanice",
+    "after": ". Prishtina."
+  },
+  {
+    "before": "Šarić, I. (1983). ‘Kamenolomi gdje su se u rimsko vrijeme izrađivali sarkofazi’,",
+    "italic": "Vjesnik arheološkog muzeja u Zagrebu",
+    "after": "15, 43–58."
+  }
 ]
