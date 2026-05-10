@@ -48,7 +48,7 @@ export default function MapView({ features, onFeatureSelect, onMapReady }) {
       zoom={MAP_ZOOM}
       style={{ height: '100%', width: '100%' }}
     >
-      <LayersControl position="bottomleft">
+      <LayersControl position="topright">
         <LayersControl.BaseLayer checked name="Landscape">
           <TileLayer
             attribution='&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
