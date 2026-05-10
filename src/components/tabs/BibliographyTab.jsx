@@ -14,7 +14,7 @@ export default function BibliographyTab() {
             sx={{ py: 0.75, borderBottom: '1px solid', borderColor: 'divider' }}
           >
             <Typography variant="body2" color="text.secondary" component="p">
-              {entry.before}<em>{entry.italic}</em>{entry.after}
+              {entry.before}{' '}<em>{entry.italic}</em>{' '}{entry.after}
             </Typography>
           </ListItem>
         ))}

@@ -34,7 +34,7 @@ export default function QuarriesTab({ features, selectedFeature, onFeatureSelect
 
   return (
     <Box sx={{ px: 2.5, py: 1 }}>
-      {features.map((feature) => {
+      {[...features].sort((a, b) => a.properties.NAME.localeCompare(b.properties.NAME)).map((feature) => {
         const p = feature.properties
         const isExpanded = selectedFid === p.fid
 
