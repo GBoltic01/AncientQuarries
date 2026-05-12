@@ -60,7 +60,7 @@ export default function AboutTab() {
         <Typography variant="subtitle2" sx={{ fontWeight: 600 }}>Gregor Boltic</Typography>
         <Typography variant="caption" color="text.secondary" display="block" sx={{ mb: 1 }}>GIS Developer</Typography>
         <Typography variant="body2" color="text.secondary" paragraph>
-          I'm a guy who likes creating map-based web applications.
+          GIS professional with extensive experience with free and open source GIS stack and development of map-based web applications.
         </Typography>
         <Typography variant="body2">
           Contact: <Link href="mailto:gregor.boltic@gmail.com">gregor.boltic@gmail.com</Link>

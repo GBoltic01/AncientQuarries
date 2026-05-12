@@ -12,8 +12,8 @@ const theme = createTheme({
 })
 const features = quarriesData.features
 const SNAP_TRANSITION = 'height 0.35s cubic-bezier(0.4, 0, 0.2, 1)'
-// drag handle (~16px) + MUI Tabs (~48px) + border (1px)
-const PANEL_HEADER_H = 65
+// drag handle (~36px) + MUI Tabs (~48px) + border (1px)
+const PANEL_HEADER_H = 85
 
 export default function App() {
   const [selectedFeature, setSelectedFeature] = useState(null)
@@ -131,7 +131,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden' }}>
 
         <AppBar position="static" elevation={2}>
           <Toolbar variant="dense">
